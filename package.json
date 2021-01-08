@@ -1,0 +1,29 @@
+{
+  "name": "@qingbing/pack-demo",
+  "version": "1.0.0",
+  "description": "webpack 模版",
+  "main": "index.js",
+  "scripts": {
+    "pack-version": "webpack -v",
+    "start": "node ./src/main.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --open"
+  },
+  "keywords": ["webpack", "模版"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {}
+}
