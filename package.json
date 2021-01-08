@@ -11,7 +11,7 @@
     "dev": "webpack-dev-server --open"
   },
   "keywords": ["webpack", "模版"],
-  "author": "",
+  "author": "https://github.com/qingbing",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
