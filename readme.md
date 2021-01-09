@@ -33,3 +33,39 @@ npm run watch
 ```
 npm run start
 ```
+
+
+## 3. 包使用
+### 3.1 下载包
+```
+git clone https://github.com/qingbing/js-pack-demo.git
+```
+
+### 3.2 修改 package.json 里面的相应信息
+如果不是制作 npm 包，这些信息也可不在意
+- name
+- description
+- keywords
+- author
+
+### 3.3 安装依赖包
+```
+npm install
+```
+
+### 3.4 运行代码（代码编辑并调试）
+```
+npm run dev
+```
+
+### 3.5 发布包
+每次发布包的时候，务必修改 package.json 中的 version ，否则不能上传
+```
+npm publish --access public
+```
+
+### 3.6 撤销发布包（必须在24小时内）
+值的注意的是，即使发布包撤销，撤销的发布版本也不能再次发布（会报错），以免有人已经使用了这个版本
+```
+npm unpublish --force
+```
