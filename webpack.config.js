@@ -15,7 +15,7 @@ module.exports = {
      */
     mode: 'development', // 'development' or 'production' or 'none'
     // 入口
-    entry: './src/main.js',
+    entry: './src/index.js',
     // 出口
     output: {
         // path : './dist/', // 路径最好不要用相对路径
